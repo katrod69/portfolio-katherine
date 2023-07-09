@@ -1,0 +1,131 @@
+.header {
+    font-family: "Chakra Petch", sans-serif;
+    text-shadow: 7px 7px #4a7c59;
+    font-size: 90px;
+    color: #8fc0a9;
+  }
+  .ul {
+    border-color: #68b0ab;
+    list-style-type: none;
+    font-family: "News Cycle", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8fc0a9;
+    width: 100%;
+  }
+  
+  #about-me{ 
+    background-image: url(assets/0A9F92F7-D064-44C4-B22F-CFE96E9C4E74.jpeg);
+  }
+
+  .banner {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(gayatri-malhotra-CI9N__WXvrA-unsplash.jpg);
+  }
+  
+  .body {
+    background-color: #8fc0a9;
+  }
+  
+  .h2 {
+    padding-right: 90px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  
+  
+  p {
+    display: flex;
+    text-justify: distribute ;
+    padding-left: 20px;
+    text-align: left;
+    color: #4a7c59;
+    font-weight: 100;
+    text-shadow: 2px 2px #68b0ab;
+  }
+  ul {
+    display: inline;
+    list-style-type: none;
+    margin: 14px;
+    padding: 3px;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    color: #68b0ab;
+    text-align: center;
+    text-size-adjust: 30px;
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  a {
+    color: #68b0ab;
+    text-decoration: none;
+  }
+  .section {
+    display: flex;
+    flex: 0 0 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: left;
+    margin-top: auto;
+    border:10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #faf3dd;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  .section img {
+    display: flex;
+    width: 278px;
+  
+    border-radius: 10px;
+  }
+  
+  .div {
+    display: flex;
+    flex: 0 2 100px;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: #faf3dd;
+    border-width: 3px;
+    padding: 40px;
+    width: 70%;
+  }
+  
+  .footer {
+    display: flex;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    
+  }
+  @media screen and (max-width: 992px) {
+    header {
+      background:#faf3dd;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .body,
+    .section
+     {
+      background-color:#4a7c59 ;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .footer {
+      background-color: #c8d5b9;
+    }
+  }
